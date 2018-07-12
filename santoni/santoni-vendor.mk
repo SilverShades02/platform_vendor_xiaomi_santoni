@@ -94,6 +94,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/hw/fingerprint.goodix.so:system/vendor/lib64/hw/fingerprint.goodix.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/hw/fingerprint.searchf.so:system/vendor/lib64/hw/fingerprint.searchf.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/hw/gxfingerprint.default.so:system/vendor/lib64/hw/gxfingerprint.default.so \
+    vendor/xiaomi/santoni/proprietary/vendor/lib64/libbt-hidlclient.so:system/vendor/lib64/libbt-hidlclient.so \
+    vendor/xiaomi/santoni/proprietary/vendor/lib64/libbthost_if.so:system/vendor/lib64/libbthost_if.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/libcom_fingerprints_service.so:system/vendor/lib64/libcom_fingerprints_service.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/libfp_client.so:system/vendor/lib64/libfp_client.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/libfpservice.so:system/vendor/lib64/libfpservice.so \
@@ -120,6 +122,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libactuator_lc898217xc.so:system/vendor/lib/libactuator_lc898217xc.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libactuator_pseudo.so:system/vendor/lib/libactuator_pseudo.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
+    vendor/xiaomi/santoni/proprietary/vendor/lib/libbt-hidlclient.so:system/vendor/lib/libbt-hidlclient.so \
+    vendor/xiaomi/santoni/proprietary/vendor/lib/libbthost_if.so:system/vendor/lib/libbthost_if.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libchromatix_csidtg_common.so:system/vendor/lib/libchromatix_csidtg_common.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:system/vendor/lib/libchromatix_csidtg_cpp_preview.so \

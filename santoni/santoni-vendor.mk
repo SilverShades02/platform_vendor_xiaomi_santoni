@@ -994,6 +994,7 @@ PRODUCT_PACKAGES += \
     imssettings \
     uceShimService \
     com.qualcomm.location \
+    PowerOffAlarm \
     qcrilmsgtunnel \
     TimeService \
     colorservice \

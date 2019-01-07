@@ -1595,7 +1595,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/xiaomi/santoni/proprietary/framework/audiosphere.jar:system/framework/audiosphere.jar \
     vendor/xiaomi/santoni/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/xiaomi/santoni/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/xiaomi/santoni/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/xiaomi/santoni/proprietary/framework/com.qualcomm.qti.imscmservice@1.0-java.jar:system/framework/com.qualcomm.qti.imscmservice@1.0-java.jar \
     vendor/xiaomi/santoni/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
@@ -2204,6 +2203,10 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libantradio \
+    com.qti.dpmframework \
+    com.qti.location.sdk \
+    dpmapi \
+    tcmclient \
     vendor.display.color@1.0 \
     vendor.qti.hardware.fm@1.0 \
     vendor.qti.hardware.iop@1.0 \
